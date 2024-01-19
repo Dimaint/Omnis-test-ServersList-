@@ -13,6 +13,7 @@
 </template>
 
 <script setup>
+import { toRaw } from "vue";
 const props = defineProps(["list"]);
 
 const select = (item, index) => {
