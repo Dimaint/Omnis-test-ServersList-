@@ -27,7 +27,6 @@ const selectedIndex = ref();
 const openServer = (item, index) => {
   selected.value = item;
   selectedIndex.value = index;
-  console.log(index);
 };
 const saveForm = (formData) => {
   serversList.value[selectedIndex.value].server_name = formData.server_name
